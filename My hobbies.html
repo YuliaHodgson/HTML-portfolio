@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/style.css">
+
+   <style>
+      body {font-family: Arial;}
+
+      /* Style the tab */
+      .tab {
+          overflow: hidden;
+          border: 1px solid #ccc;
+          background-color: #f1f1f1;
+      }
+      
+      /* Style the buttons inside the tab */
+      .tab button {
+          background-color: inherit;
+          float:none;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          padding: 14px 16px;
+          transition: 0.3s;
+          font-size: 17px;
+      }
+      
+      /* Change background color of buttons on hover */
+      .tab button:hover {
+          background-color: #ddd;
+      }
+      
+      /* Create an active/current tablink class */
+      .tab button.active {
+          background-color: #ccc;
+      }
+      
+      /* Style the tab content */
+      .tabcontent {
+          display: none;
+          padding: 6px 12px;
+          border: 1px solid #ccc;
+          border-top: none;
+          width: 1140px;
+          margin: auto;
+      }
+
+      img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      </style>
+
+   <title>My hobbies</title>
+</head>
+<body>
+
+   <h1>My hobbies</h1>
+   <hr>
+   <div class="tab">
+     <button class="tablinks" onclick="openHobby(event, 'Travel')">Travel</button>
+     <button class="tablinks" onclick="openHobby(event, 'Embroidery, 3D Mosaic')">Embroidery, 3D Mosaic</button>
+     <button class="tablinks" onclick="openHobby(event, 'Knitting')">Knitting</button>
+     <button class="tablinks" onclick="openHobby(event, 'Knitted shoes')">Knitted shoes</button>
+     <button class="tablinks" onclick="openHobby(event, 'Sewing')">Sewing</button>
+     <button class="tablinks" onclick="openHobby(event, 'Gardening')">Gardening</button>
+     <button class="tablinks" onclick="openHobby(event, 'Neurographics')">Neurographics </button>
+     <button class="tablinks" onclick="openHobby(event, 'Organization of children\'s events')">Organization of children's events</button>
+   
+   </div>
+   
+   <div id="Travel" class="tabcontent">
+     <h3>Travel</h3>
+      
+      <img src="Photos of Travel\P1000460.JPG" alt="Saint-Petersburg">
+      <img src="Photos of Travel\P1000518.JPG" alt="Saint-Petersburg">
+      <img src="Photos of Travel\PIC_5732.JPG" alt="Saint-Petersburg" width="800" height="600">
+      <img src="Photos of Travel\PIC_5977.JPG" alt="Saint-Petersburg" width="800" height="600">
+      <img src="Photos of Travel\1.JPG" alt="Saint-Petersburg" width="800" height="600">
+      <img src="Photos of Travel\2.JPG" alt="Saint-Petersburg" width="900" height="600">
+      <img src="Photos of Travel\3.JPG" alt="Saint-Petersburg" width="600" height="800">
+      <img src="Photos of Travel\20191230_121343.jpg" alt="Cruise to Australia" width="800" height="600">
+      <img src="Photos of Travel\20200106_150943.jpg" alt="" width="450" height="950">
+      <img src="Photos of Travel\20200109_190353.jpg" alt="Melbourne" width="900" height="450">
+      <img src="Photos of Travel\20200109_191708.jpg" alt="Sydney" width="900" height="450">
+      <img src="Photos of Travel\20210708_173818.jpg" alt="Christchurch" width="400" height="830">
+      <img src="Photos of Travel\20210709_125608.jpg" alt="Christchurch" width="530" height="800">
+      <img src="Photos of Travel\20220705_121500.jpg" alt="Wellington" width="450" height="800">
+      <img src="Photos of Travel\20220707_162642.jpg" alt="Wellington" width="800" height="450">
+      <img src="Photos of Travel\DSC02939.JPG" alt="Kostomuksha" width="800" height="500">
+      <img src="Photos of Travel\IMG_0047.JPG" alt="Sydney" width="800" height="600">
+      <img src="Photos of Travel\IMG-20190325-WA0006.jpg" alt="Barcelona" width="600" height="800">
+      <img src="Photos of Travel\IMG-20190326-WA0004.jpg" alt="Barcelona" width="600" height="800">
+      <img src="Photos of Travel\PIC_3268.JPG" alt="Auckland" width="800" height="600">
+      <img src="Photos of Travel\PIC_3339.JPG" alt="China">
+      <img src="Photos of Travel\PIC_3435.JPG" alt="China" >
+      <img src="Photos of Travel\PIC_4824.JPG" alt="Auckland" width="600" height="900">
+      <img src="Photos of Travel\PIC_4988.JPG" alt="Auckland" width="800" height="600">
+     
+   </div>
+
+   <div id="Embroidery, 3D Mosaic" class="tabcontent">
+     <h3>Embroidery, 3D Mosaic</h3>
+     
+      <img src="Photos of Embroidery, 3D Mosaic\1.jpg" alt="" width="800" height="600">
+      <img src="Photos of Embroidery, 3D Mosaic\2.jpg" alt="" width="600" height="800">
+      <img src="Photos of Embroidery, 3D Mosaic\3.jpg" alt="" width="600" height="800">
+      <img src="Photos of Embroidery, 3D Mosaic\4.jpg" alt="" width="800" height="600">
+      <img src="Photos of Embroidery, 3D Mosaic\5.JPG" alt="" width="800" height="600">
+      <img src="Photos of Embroidery, 3D Mosaic\6.jpeg" alt="" width="600" height="800">
+      <img src="Photos of Embroidery, 3D Mosaic\7.jpg" alt="" width="600" height="800">
+      <img src="Photos of Embroidery, 3D Mosaic\8.jpg" alt="" width="600" height="870">
+      <img src="Photos of Embroidery, 3D Mosaic\9.jpg" alt="" width="900" height="500">
+      <img src="Photos of Embroidery, 3D Mosaic\10.JPG" alt="" width="600" height="800">
+      <img src="Photos of Embroidery, 3D Mosaic\11.jpg" alt="" width="600" height="800">
+      <img src="Photos of Embroidery, 3D Mosaic\12.jpg" alt="" width="800" height="600">
+      <img src="Photos of Embroidery, 3D Mosaic\13.jpg" alt="" width="600" height="800">
+      <img src="Photos of Embroidery, 3D Mosaic\14.jpg" alt="" width="600" height="800">
+      <img src="Photos of Embroidery, 3D Mosaic\15.jpg" alt="" width="800" height="600">
+      <img src="Photos of Embroidery, 3D Mosaic\16.jpg" alt="" width="800" height="600">
+      <img src="Photos of Embroidery, 3D Mosaic\17.jpg" alt="" width="800" height="400">
+      <img src="Photos of Embroidery, 3D Mosaic\18.jpg" alt="" width="800" height="500">
+      <img src="Photos of Embroidery, 3D Mosaic\19.jpg" alt="" width="1000" height="800">
+      <img src="Photos of Embroidery, 3D Mosaic\20.JPG" alt="" width="800" height="600">
+      <img src="Photos of Embroidery, 3D Mosaic\21.jpg" alt="" width="600" height="800">
+      <img src="Photos of Embroidery, 3D Mosaic\22.jpg" alt="" width="800" height="400">
+      
+   </div>
+   
+   <div id="Knitting" class="tabcontent">
+     <h3>Knitting</h3>
+   
+      <img src="Photos of Knitting\1.JPG" alt="" width="600" height="800">
+      <img src="Photos of Knitting\2.JPG" alt="" width="600" height="800">
+      <img src="Photos of Knitting\3.jpg" alt="" width="600" height="800">
+      <img src="Photos of Knitting\4.jpg" alt="" width="800" height="600">
+      <img src="Photos of Knitting\5.jpg" alt="" width="1000" height="500">
+      <img src="Photos of Knitting\6.jpg" alt="" width="800" height="750">
+      <img src="Photos of Knitting\7.jpg" alt="" width="800" height="750">
+      <img src="Photos of Knitting\8.jpg" alt="" width="800" height="700">
+      <img src="Photos of Knitting\9.jpg" alt="" width="600" height="800">
+      <img src="Photos of Knitting\10.jpg" alt="" width="600" height="1000">
+      <img src="Photos of Knitting\11.JPG" alt="" width="800" height="600">
+      <img src="Photos of Knitting\12.JPG" alt="" width="800" height="600">
+      <img src="Photos of Knitting\13.jpg" alt="" width="800" height="600">
+      <img src="Photos of Knitting\14.jpg" alt="" width="600" height="600">
+
+   </div>
+   
+   <div id="Knitted shoes" class="tabcontent">
+     <h3>Knitted shoes</h3>
+     <img src="Photos of shoes\1.jpg" alt="" width="800" height="450">
+     <img src="Photos of shoes\2.JPG" alt="" width="800" height="550">
+     <img src="Photos of shoes\3.jpg" alt="" width="800" height="350">
+     <img src="Photos of shoes\4.jpg" alt="" width="800" height="350">
+     <img src="Photos of shoes\5.jpg" alt="" width="900" height="450">
+     <img src="Photos of shoes\6.jpg" alt="" width="800" height="600">
+     <img src="Photos of shoes\7.JPG" alt="" width="800" height="500">
+     <img src="Photos of shoes\8.jpg" alt="" width="800" height="600">
+     <img src="Photos of shoes\9.JPG" alt="" width="800" height="600">
+     <img src="Photos of shoes\10.JPG" alt="" width="800" height="600">
+     <img src="Photos of shoes\11.JPG" alt="" width="800" height="600">
+     <img src="Photos of shoes\12.jpg" alt="" width="1000" height="500">
+     <img src="Photos of shoes\13.jpg" alt="" width="900" height="450">
+     <img src="Photos of shoes\14.JPG" alt="" width="800" height="450">
+     <img src="Photos of shoes\15.jpg" alt="" width="600" height="800">
+     <img src="Photos of shoes\16.jpg" alt="" width="800" height="600">
+     <img src="Photos of shoes\17.JPG" alt="" width="550" height="850">
+     <img src="Photos of shoes\18.jpg" alt="" width="800" height="600">
+     <img src="Photos of shoes\19.jpg" alt="" width="500" height="800">
+     <img src="Photos of shoes\20.jpg" alt="" width="600" height="800">
+     <img src="Photos of shoes\21.JPG" alt="" width="600" height="800">
+     <img src="Photos of shoes\22.jpg" alt="" width="900" height="450">
+     <img src="Photos of shoes\23.jpg" alt="" width="600" height="800">
+     <img src="Photos of shoes\24.jpg" alt="" width="600" height="800">
+     <img src="Photos of shoes\25.jpg" alt="" width="450" height="900">
+     <img src="Photos of shoes\26.JPG" alt="" width="800" height="600">
+     <img src="Photos of shoes\27.JPG" alt="" width="800" height="600">
+     <img src="Photos of shoes\28.JPG" alt="" width="800" height="600">
+     <img src="Photos of shoes\29.jpg" alt="" width="900" height="450">
+     <img src="Photos of shoes\30.JPG" alt="" width="800" height="600">
+     <img src="Photos of shoes\31.JPG" alt="" width="600" height="800">
+
+   </div>
+   
+   <div id="Sewing" class="tabcontent">
+     <h3>Sewing</h3>
+     <img src="Photos of Sewing\1.jpg" alt="" width="800" height="500">
+     <img src="Photos of Sewing\2.JPG" alt="" width="800" height="600">
+     <img src="Photos of Sewing\3.JPG" alt="" width="600" height="800">
+     <img src="Photos of Sewing\4.JPG" alt="" width="800" height="600">
+     <img src="Photos of Sewing\5.JPG" alt="" width="800" height="600">
+     <img src="Photos of Sewing\6.JPG" alt="" width="600" height="800">
+    
+   </div>
+   
+   <div id="Gardening" class="tabcontent">
+     <h3>Gardening</h3>
+     <img src="Photos of Gardening\1.jpg" alt="" width="550" height="1000">
+     <img src="Photos of Gardening\2.jpg" alt="" width="550" height="1000">
+     <img src="Photos of Gardening\3.jpg" alt="" width="950" height="500">
+     <img src="Photos of Gardening\4.jpg" alt="" width="500" height="1000">
+     <img src="Photos of Gardening\5.jpg" alt="" width="900" height="450">
+     <img src="Photos of Gardening\6.jpg" alt="" width="900" height="450">
+     <img src="Photos of Gardening\7.jpg" alt="" width="900" height="450">
+     <img src="Photos of Gardening\8.jpg" alt="" width="900" height="450">
+     <img src="Photos of Gardening\9.jpg" alt="" width="900" height="450">
+     <img src="Photos of Gardening\10.jpg" alt="" width="900" height="500">
+     <img src="Photos of Gardening\11.jpg" alt="" width="900" height="500">
+     <img src="Photos of Gardening\12.jpg" alt="" width="900" height="500">
+     <img src="Photos of Gardening\13.jpg" alt="" width="400" height="800">
+     <img src="Photos of Gardening\14.jpg" alt="" width="400" height="800">
+     <img src="Photos of Gardening\15.jpg" alt="" width="400" height="800">
+     <img src="Photos of Gardening\16.jpg" alt="" width="400" height="800">
+     <img src="Photos of Gardening\17.jpg" alt="" width="400" height="800">
+     <img src="Photos of Gardening\18.jpg" alt="" width="400" height="800">
+     <img src="Photos of Gardening\19.jpg" alt="" width="400" height="800">
+     <img src="Photos of Gardening\20.jpg" alt="" width="900" height="450">
+     <img src="Photos of Gardening\21.jpg" alt="" width="900" height="400">
+     <img src="Photos of Gardening\22.jpg" alt="" width="900" height="400">
+
+   </div>
+   
+   <div id="Neurographics" class="tabcontent">
+     <h3>Neurographics</h3>
+     <img src="Photos of Neurographics\1.jpg" alt="" width="800" height="600">
+     <img src="Photos of Neurographics\2.jpg" alt="" width="800" height="600">
+     <img src="Photos of Neurographics\3.jpg" alt="" width="800" height="600">
+     <img src="Photos of Neurographics\4.jpg" alt="" width="800" height="600">
+
+   </div>
+   
+   <div id="Organization of children's events" class="tabcontent">
+     <h3>Organization of children's events</h3>
+     <img src="Photos of children's events\1.jpg" alt="" width="900" height="450">
+     <img src="Photos of children's events\2.jpg" alt="" width="900" height="450">
+     <img src="Photos of children's events\3.jpg" alt="" width="900" height="450">
+     <img src="Photos of children's events\4.jpg" alt="" width="900" height="450">
+     <img src="Photos of children's events\5.jpg" alt="" width="900" height="450">
+     <img src="Photos of children's events\6.jpg" alt="" width="900" height="450">
+     <img src="Photos of children's events\7.jpg" alt="" width="900" height="450">
+     <img src="Photos of children's events\8.jpg" alt="" width="900" height="450">
+     <img src="Photos of children's events\9.jpg" alt="" width="900" height="450">
+     <img src="Photos of children's events\10.jpg" alt="" width="900" height="450">
+     <img src="Photos of children's events\11.jpg" alt="" width="900" height="450">
+     <img src="Photos of children's events\12.JPG" alt="" width="900" height="650">
+     <img src="Photos of children's events\13.JPG" alt="" width="800" height="500">
+     <img src="Photos of children's events\14.jpg" alt="" width="900" height="650">
+     <img src="Photos of children's events\15.jpg" alt="" width="900" height="650">
+     <img src="Photos of children's events\16.jpeg" alt="" width="900" height="600">
+     <img src="Photos of children's events\17.jpeg" alt="" width="600" height="800">
+     <img src="Photos of children's events\18.jpeg" alt="" width="400" height="1000">
+     <img src="Photos of children's events\19.jpg" alt="" width="400" height="1000">
+
+   </div>
+   
+   <script>
+   function openHobby(evt, HobbyName) {
+       var i, tabcontent, tablinks;
+       tabcontent = document.getElementsByClassName("tabcontent");
+       for (i = 0; i < tabcontent.length; i++) {
+           tabcontent[i].style.display = "none";
+       }
+       tablinks = document.getElementsByClassName("tablinks");
+       for (i = 0; i < tablinks.length; i++) {
+           tablinks[i].className = tablinks[i].className.replace(" active", "");
+       }
+       document.getElementById(HobbyName).style.display = "block";
+       evt.currentTarget.className += " active";
+   }
+   </script>
+        
+  
+</body>
+</html>

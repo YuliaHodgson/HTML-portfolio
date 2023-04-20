@@ -1,0 +1,165 @@
+body {
+   background-color:#cbede5;
+ }
+ 
+ hr {
+   border-style: none;
+   border-top-style: dotted;
+   border-color: rgb(237, 243, 239);
+   border-width: 4px;
+   width: 70%;
+   margin: 20px auto 20px;
+   
+ }
+
+ h1 {
+   color: rgb(3, 89, 83);
+   text-align: center;
+   padding: 20px;
+
+ }
+
+  h2 {
+   color: rgb(3, 89, 83);
+   text-align: center;
+    padding: 20px;
+ }
+
+ li {
+   line-height: 2;
+ 
+ }
+
+ p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+  padding: 30px;
+  text-decoration: none;
+  text-align: center;
+ }
+
+ a {
+   color: #6ddbb1;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 10px 20px;
+   text-decoration: none;
+   text-align: center;
+ }
+
+ a:hover {
+   color: #eaf6f6;
+ }
+
+ .OBJECTIVE{
+  width: 70%;
+  margin: auto;
+  padding: 30px;
+
+ }
+
+
+ .skills {
+width: 100%;
+float: center;
+ }
+
+  .skills-row {
+  width: 30%;
+  margin: 30px 30px 30px 30px;
+  padding-left: 10px;
+  float: left;
+  text-align: left;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #444;
+  background-color:#ddf1ec;
+  }
+  .Graphic {
+   margin-top: 10px;
+
+   border-radius: 10px;
+   box-shadow: 0 0 10px #444;
+  }
+
+ .Organizational {
+    margin-top: 10px;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 10px #444;
+ }
+
+ .Problem-solving {
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #444;
+ }
+
+ .Management {
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #444;
+ }
+  .Communication-skills {
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #444;
+ }
+ .Willingness-to-learn {
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #444;
+ }
+ .Team-player {
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #444;
+ }
+  .Fast-and-proficient {
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #444;
+ }  
+  
+  .Personal-qualities {
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #444;
+ }
+
+ .btn {
+  background: #6ddbb1;
+  background-image: -webkit-linear-gradient(top, #6ddbb1, );
+  background-image: -moz-linear-gradient(top, #6ddbb1, );
+  background-image: -ms-linear-gradient(top, #6ddbb1, );
+  background-image: -o-linear-gradient(top, #6ddbb1, );
+  background-image: linear-gradient(to bottom, #6ddbb1,);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  border: 20px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin: 30px auto 30px; 
+  width:15%;
+  border: solid #93cff1 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #95d1f9;
+  background-image: -webkit-linear-gradient(top, #95d1f9,);
+  background-image: -webkit-linear-gradient(top, #95d1f9,);
+  background-image: -moz-linear-gradient(top, #95d1f9,);
+  background-image: -ms-linear-gradient(top, #95d1f9,);
+  background-image: -o-linear-gradient(top, #95d1f9,);
+  background-image: linear-gradient(to bottom, #95d1f9,);
+  text-decoration: none;
+}
+
+.copyright {
+   font-size: 0.75rem;
+}
+.bottom-container {
+   text-align: center;
+}
